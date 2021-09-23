@@ -1,0 +1,81 @@
+.speech
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    
+}
+
+.stage-direction
+{
+    background-color: cyan;
+}
+
+.name
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: violet;
+
+}
+.name1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:green;
+
+}
+.c
+{
+    background-color: indianred;
+    color: black;
+}
+.c:hover{
+    background-color: blue;
+    color: white;
+}
+.c1:hover
+{
+    
+    color: coral;
+    text-shadow: 1px 1px 3px olivedrab;
+    border: green;
+    border-style:dashed;
+
+}
+
+.stage-direction:hover
+{
+    color: red;
+    background-color: silver;
+}
+
+table, th, td
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+   
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+
+    
+}
+
+tr:nth-child(even)
+{
+    background-color: cadetblue;
+}
+.navbar{
+    overflow: hidden;
+    background-color: grey;
+    bottom: 0%;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: honeydew;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
